@@ -13,7 +13,7 @@ function createCourse():{name: string, price: number}{
 }
 
 //Bad behaviour of objects in TS
-createUser({name: "vishwa", isPaid: true, email:"vish@test.com"})
+//createUser({name: "vishwa", isPaid: true, email:"vish@test.com"})
 
 //the same if we take all params into object and then pass it then no error
 let userOne = {name: "vishwa", isPaid: true, email:"vish@test.com"};
